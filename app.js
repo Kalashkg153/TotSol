@@ -65,7 +65,7 @@ class UI{
                     </button>
                 </div>
                 <h3>${product.title}</h3>
-                <h4>$${product.price}</h4>
+                <h4>Rs.${product.price}</h4>
             </article> 
             </div>
             `;
@@ -121,7 +121,7 @@ class UI{
         div.innerHTML = ` <img src="./images/product-1.jpeg" alt="product" srcset="">
         <div>
             <h4>${item.title}</h4>
-            <h5>$${item.price}</h5>
+            <h5>Rs.${item.price}</h5>
             <span class="remove-item" data-id=${item.id}>remove</span>
         </div>
         <div>
